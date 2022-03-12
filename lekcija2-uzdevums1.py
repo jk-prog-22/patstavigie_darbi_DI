@@ -4,5 +4,7 @@
 vards = input ("Ievadi savu vārdu: ")
 if vards == "Bond":
     print("Esi sveicināts 007")
+elif vards == "bond":
+    print("Esi sveicināts 007")
 else:
     print("Esi sveicināts,", vards)
